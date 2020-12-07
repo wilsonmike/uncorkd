@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.getBourbons();
+    console.log(this.getBourbons());
   }
 
   getBourbons = () => {
