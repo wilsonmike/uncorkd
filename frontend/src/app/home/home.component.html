@@ -1,1 +1,5 @@
-<p>home works!</p>
+<ul *ngFor="let bourbon of bourbons">
+  <img src="{{ bourbon.img_url }}" alt="Picture of Bourbon" />
+  <li>{{ bourbon.brand }}</li>
+  <li>{{ bourbon.description }}</li>
+</ul>
